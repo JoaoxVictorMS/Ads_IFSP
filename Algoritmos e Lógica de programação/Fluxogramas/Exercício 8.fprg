@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-09 05:56:58 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0wNjsiMDE6MDA6MzkgIjsyNTk2"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0wOTsiMDU6NTY6NTggIjsyOzI3MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Digite o valor do seu dep&#243;sito:&quot;" newline="True"/>
+            <declare name="valDepo" type="Real" array="False" size=""/>
+            <input variable="valDepo"/>
+            <output expression="&quot;Digite o valor da taxa de juros:&quot;" newline="True"/>
+            <declare name="taxJu" type="Real" array="False" size=""/>
+            <input variable="taxJu"/>
+            <declare name="valRend" type="Real" array="False" size=""/>
+            <assign variable="valRend" expression="valDepo * (taxJu/100)"/>
+            <declare name="valFinal" type="Real" array="False" size=""/>
+            <assign variable="valFinal" expression="valDepo + valRend"/>
+            <output expression="&quot;O valor do rendimento &#233;:&quot;&amp; valRend" newline="True"/>
+            <output expression="&quot;O valor final do seu dep&#243;sito somado ao rendimento &#233;:&quot;&amp; valFinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

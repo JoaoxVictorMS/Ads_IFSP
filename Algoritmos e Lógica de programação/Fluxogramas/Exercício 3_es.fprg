@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-14 08:07:30 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0xNDsiMDc6NTI6MTggIjsyNjA1"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0xNDsiMDg6MDc6MzAgIjsxOzI3MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o peso em quilos do pacote:&quot;" newline="True"/>
+            <declare name="peso" type="Real" array="False" size=""/>
+            <input variable="peso"/>
+            <declare name="custo" type="Real" array="False" size=""/>
+            <if expression="peso &lt;= 1.0">
+                <then>
+                    <assign variable="custo" expression="10.0"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="peso &gt; 1">
+                <then>
+                    <assign variable="custo" expression="peso * 7.5"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="peso &gt; 35.0">
+                <then>
+                    <assign variable="custo" expression="10.0 + peso * 7.5"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="peso &gt; 50">
+                <then>
+                    <output expression="&quot;Peso inv&#225;lido. O pacote n&#227;o pode pesar mais do que 50 kg&quot;" newline="True"/>
+                    <breakpoint expression="True" always="False"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;O custo de envio do pacote &#233;: R$&quot; &amp; custo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

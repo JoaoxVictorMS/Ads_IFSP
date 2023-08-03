@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-28 06:29:36 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yODsiMDU6MzM6NDYgIjsyNjA3"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yODsiMDY6Mjk6MzYgIjszOzI3MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe os pontos do primeiro jogador:&quot;" newline="True"/>
+            <declare name="ponto1" type="Real" array="False" size=""/>
+            <input variable="ponto1"/>
+            <output expression="&quot;Informe os pontos do segundo jogador:&quot;" newline="True"/>
+            <declare name="ponto2" type="Real" array="False" size=""/>
+            <input variable="ponto2"/>
+            <declare name="somaTotal" type="Real" array="False" size=""/>
+            <assign variable="somaTotal" expression="ponto1 + ponto2"/>
+            <declare name="percJog1" type="Real" array="False" size=""/>
+            <assign variable="percJog1" expression="ponto1/somaTotal"/>
+            <declare name="percJog2" type="Real" array="False" size=""/>
+            <assign variable="percJog2" expression="ponto2/somaTotal"/>
+            <declare name="valorJog1" type="Real" array="False" size=""/>
+            <assign variable="valorJog1" expression="1000000 * percJog1"/>
+            <declare name="valorJog2" type="Real" array="False" size=""/>
+            <assign variable="valorJog2" expression="1000000 * percJog2"/>
+            <output expression="&quot;O valor do pr&#234;mio do jogador 1 &#233;:&quot; &amp; valorJog1" newline="True"/>
+            <output expression="&quot;O valor do pr&#234;mio do jogador 2 &#233;:&quot; &amp; valorJog2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

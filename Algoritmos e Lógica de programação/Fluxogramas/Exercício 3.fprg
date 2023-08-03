@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-24 05:05:02 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yNDsiMDQ6NTU6MTggIjsyNjA1"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yNDsiMDU6MDU6MDIgIjsxOzI3MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe seu ano de nascimento&quot;" newline="True"/>
+            <declare name="nasc" type="Integer" array="False" size=""/>
+            <input variable="nasc"/>
+            <output expression="&quot;Informe o ano atual&quot;" newline="True"/>
+            <declare name="antual" type="Integer" array="False" size=""/>
+            <input variable="antual"/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <assign variable="idade" expression="antual - nasc"/>
+            <output expression="&quot;Sua idade &#233;:&quot; &amp; idade" newline="True"/>
+            <declare name="idade2050" type="Integer" array="False" size=""/>
+            <assign variable="idade2050" expression="idade + (2050 - antual)"/>
+            <output expression="&quot;Sua idade em 2050 ser&#225; de:&quot; &amp; idade2050" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

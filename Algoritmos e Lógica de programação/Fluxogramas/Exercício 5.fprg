@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-29 04:59:00 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yOTsiMDQ6MDM6NTEgIjsyNjAw"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yOTsiMDQ6NTk6MDAgIjsyOzI3MTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o pre&#231;o do produto:&quot;" newline="True"/>
+            <declare name="precPro" type="Real" array="False" size=""/>
+            <input variable="precPro"/>
+            <output expression="&quot;Informe o percentual de desconto:&quot;" newline="True"/>
+            <declare name="percPro" type="Real" array="False" size=""/>
+            <input variable="percPro"/>
+            <declare name="valDesc" type="Real" array="False" size=""/>
+            <assign variable="valDesc" expression="precPro * (percPro/100)"/>
+            <declare name="precFim" type="Real" array="False" size=""/>
+            <assign variable="precFim" expression="precPro - valDesc"/>
+            <output expression="&quot;O valor de desconto &#233;:&quot; &amp; valDesc" newline="True"/>
+            <output expression="&quot;O pre&#231;o do produto com o deconto &#233;:&quot; &amp; precFim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-28 05:33:39 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yODsiMDQ6NTI6NDggIjsyNjA5"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yODsiMDU6MzM6MzkgIjsxOzI3MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o pre&#231;o de f&#225;brica do ve&#237;culo:&quot;" newline="True"/>
+            <declare name="precoFab" type="Integer" array="False" size=""/>
+            <input variable="precoFab"/>
+            <output expression="&quot;Informe o percentual de lucro:&quot;" newline="True"/>
+            <declare name="percLucro" type="Integer" array="False" size=""/>
+            <input variable="percLucro"/>
+            <output expression="&quot;Informe o percentual de impostos:&quot;" newline="True"/>
+            <declare name="percImps" type="Integer" array="False" size=""/>
+            <input variable="percImps"/>
+            <declare name="lucroDist" type="Integer" array="False" size=""/>
+            <assign variable="lucroDist" expression="precoFab * (percLucro/100)"/>
+            <declare name="valorImps" type="Integer" array="False" size=""/>
+            <assign variable="valorImps" expression="precoFab * (percImps/100)"/>
+            <declare name="valorFinal" type="Integer" array="False" size=""/>
+            <assign variable="valorFinal" expression="precoFab + lucroDist + valorImps"/>
+            <output expression="&quot;O lucro do distribuidor &#233;:&quot; &amp; lucroDist" newline="True"/>
+            <output expression="&quot;O valor do imposto &#233;:&quot; &amp; valorImps" newline="True"/>
+            <output expression="&quot;O pre&#231;o final do ve&#237;culo &#233;:&quot; &amp; valorFinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

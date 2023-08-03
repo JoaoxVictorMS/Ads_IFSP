@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-06 04:00:20 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0wNjsiMDI6NDU6NDIgIjsyNjAw"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0wNjsiMDQ6MDA6MjAgIjsyOzI2OTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o valor apostado pelo primeiro participante&quot;" newline="True"/>
+            <declare name="val1" type="Real" array="False" size=""/>
+            <input variable="val1"/>
+            <output expression="&quot;Informe o valor apostado pelo segundo participante&quot;" newline="True"/>
+            <declare name="val2" type="Real" array="False" size=""/>
+            <input variable="val2"/>
+            <output expression="&quot;Informe o valor apostado pelo terceiro participante&quot;" newline="True"/>
+            <declare name="val3" type="Real" array="False" size=""/>
+            <input variable="val3"/>
+            <output expression="&quot;Infome o valor do pr&#234;mio ofertado pela loteria:&quot;" newline="True"/>
+            <declare name="premioLot" type="Real" array="False" size=""/>
+            <input variable="premioLot"/>
+            <declare name="premioPart1" type="Real" array="False" size=""/>
+            <declare name="premioPart2" type="Real" array="False" size=""/>
+            <declare name="premioPart3" type="Real" array="False" size=""/>
+            <assign variable="premioPart1" expression="premioLot * (val1/100)"/>
+            <assign variable="premioPart2" expression="premioLot * (val2/100)"/>
+            <assign variable="premioPart3" expression="premioLot * (val3/100)"/>
+            <output expression="&quot;O pr&#234;mio do jogador 1 &#233; de:&quot;&amp; premioPart1" newline="True"/>
+            <output expression="&quot;O pr&#234;mio do jogador 2 &#233; de:&quot;&amp; premioPart2" newline="True"/>
+            <output expression="&quot;O pr&#234;mio do jogador 3 &#233; de:&quot;&amp; premioPart3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-14 07:42:11 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0xNDsiMDc6MTI6NTYgIjsyNjAz"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0xNDsiMDc6NDI6MTEgIjsxOzI3MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o primeiro n&#250;mero:&quot;" newline="True"/>
+            <declare name="num1" type="Real" array="False" size=""/>
+            <input variable="num1"/>
+            <output expression="&quot;Informe o segundo n&#250;mero:&quot;" newline="True"/>
+            <declare name="num2" type="Real" array="False" size=""/>
+            <input variable="num2"/>
+            <output expression="&quot;Informe o terceiro n&#250;mero:&quot;" newline="True"/>
+            <declare name="num3" type="Real" array="False" size=""/>
+            <input variable="num3"/>
+            <declare name="maior" type="Real" array="False" size=""/>
+            <if expression="num1 &gt; num2">
+                <then>
+                    <if expression="num1 &gt; num3">
+                        <then>
+                            <assign variable="maior" expression="num1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="num2 &gt; num1">
+                <then>
+                    <if expression="num2 &gt; num3">
+                        <then>
+                            <assign variable="maior" expression="num2"/>
+                        </then>
+                        <else>
+                            <assign variable="maior" expression="num3"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;O maior n&#250;mero &#233;:&quot;&amp; maior" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

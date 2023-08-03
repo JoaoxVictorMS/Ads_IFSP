@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-29 04:03:47 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yOTsiMDM6Mzg6MjYgIjsyNjA5"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yOTsiMDQ6MDM6NDcgIjszOzI3MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o pre&#231;o do produto&quot;" newline="True"/>
+            <declare name="precPro" type="Real" array="False" size=""/>
+            <input variable="precPro"/>
+            <declare name="precReaj" type="Real" array="False" size=""/>
+            <assign variable="precReaj" expression="0.15 * precPro"/>
+            <declare name="precFim" type="Real" array="False" size=""/>
+            <assign variable="precFim" expression="precReaj + precPro"/>
+            <output expression="&quot;O pre&#231;o do produto com o reajuste de 15% &#233;:&quot; &amp; precFim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

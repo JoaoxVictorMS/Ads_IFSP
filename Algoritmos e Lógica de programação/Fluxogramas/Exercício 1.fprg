@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-24 04:07:54 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yNDsiMDM6NDI6NTMgIjsyNTk5"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wMy0yNDsiMDQ6MDc6NTQgIjsxOzI3MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o primeiro valor&quot;" newline="True"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <output expression="&quot;Informe o segundo valor&quot;" newline="True"/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <input variable="y"/>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <assign variable="result" expression="x + y"/>
+            <output expression="&quot;A soma &#233;:&quot;&amp; result" newline="True"/>
+            <assign variable="result" expression="x - y"/>
+            <output expression="&quot;A subtra&#231;&#227;o &#233;:&quot;&amp; result" newline="True"/>
+            <assign variable="result" expression="x / y"/>
+            <output expression="&quot;A divis&#227;o &#233;:&quot;&amp; result" newline="True"/>
+            <assign variable="result" expression="x * y"/>
+            <output expression="&quot;A multiplica&#231;&#227;o &#233;:&quot;&amp; result" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

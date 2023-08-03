@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-09 06:05:17 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0wNjsiMDE6MTU6MDAgIjsyNTkw"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0wOTsiMDY6MDU6MTcgIjszOzI3MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe um valor em p&#233;s para ser convertido:&quot;" newline="True"/>
+            <declare name="infoPes" type="Real" array="False" size=""/>
+            <input variable="infoPes"/>
+            <declare name="convPol" type="Real" array="False" size=""/>
+            <declare name="convJarda" type="Real" array="False" size=""/>
+            <declare name="convMilha" type="Real" array="False" size=""/>
+            <assign variable="convPol" expression="infoPes * 12"/>
+            <assign variable="convJarda" expression="infoPes / 3"/>
+            <assign variable="convMilha" expression="infoPes / 5.280"/>
+            <output expression="&quot;O valor em p&#233;s dado, convertido em polegadas, &#233; de:&quot;&amp; convPol" newline="True"/>
+            <output expression="&quot;O valor em p&#233;s dado, convertido em jardas, &#233; de:&quot;&amp; convJarda" newline="True"/>
+            <output expression="&quot;O valor em p&#233;s dado, convertido em milhas, &#233; de:&quot;&amp; convMilha" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

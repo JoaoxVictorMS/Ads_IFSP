@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jotin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-14 07:52:15 "/>
+        <attribute name="created" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0xNDsiMDc6NDI6NDUgIjsyNjA0"/>
+        <attribute name="edited" value="am90aW47Sk9BT19WSUNUT1I7MjAyMy0wNC0xNDsiMDc6NTI6MTUgIjsxOzI3MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Informe o n&#250;mero de ma&#231;&#227;s compradas:&quot;" newline="True"/>
+            <declare name="numMacas" type="Real" array="False" size=""/>
+            <input variable="numMacas"/>
+            <declare name="precoMacas" type="Real" array="False" size=""/>
+            <declare name="precoFim" type="Real" array="False" size=""/>
+            <if expression="numMacas &lt; 12">
+                <then>
+                    <assign variable="precoMacas" expression="1.30"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numMacas &gt;= 12">
+                <then>
+                    <assign variable="precoMacas" expression="1.00"/>
+                </then>
+                <else/>
+            </if>
+            <assign variable="precoFim" expression="numMacas * precoMacas"/>
+            <output expression="&quot;O pre&#231;o que voc&#234; vai pagar ser&#225; de:&quot;&amp; precoFim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
