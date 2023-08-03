@@ -1,0 +1,26 @@
+.data
+
+numero: .word 11
+mensagem_par: .asciiz "O número é par"
+mensagem_impar: .asciiz  "O numero é ímpar"
+
+.text
+.globl  main
+
+main:
+	lw $t0, numero
+	andi $t1, $t0, 1
+	beqz $t1, numero_par
+	li $v0, 4 # 4 é o código de serviço de chamada do syscall
+	la $a0, mensagem_impar
+	syscall
+	j fim
+	
+numero_par:
+	li $v0, 4 
+	la $a0, mensagem_par
+	syscall
+	
+fim:
+	li $v0, 10 #10 é o código de serviço de encerramento do programa
+	syscall

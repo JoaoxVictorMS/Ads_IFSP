@@ -1,0 +1,40 @@
+.data
+
+msg_while: .asciiz "\n Estamos dentro do while.\n"
+msg: .asciiz "\n Saímos do while!.\n"
+msg_valor_de_i: .asciiz "Valor de i: "
+
+n1: .word 1
+n2: .word 10
+
+.text
+
+main:
+	# Vocês poderiam ler os valores (scanf) em vez de usar valores predefinidos
+	lw $s0, n1 # Carrega o valor de num1 em $s0 
+	lw $s1, n2 # Carrega o valor de num2 em $s1 
+
+while:
+	la $a0, msg_while
+	li $v0, 4
+	syscall # Avisando que entramos no laço.
+
+	la $a0, msg_valor_de_i
+	li $v0, 4
+	syscall
+
+	li $v0, 1
+	move $a0, $s0
+	syscall # Exibindo o valor atual de "i"
+	
+	# Verifica se i < j
+	slt $t0, $s0, $s1 # $t0 = 1 se $s0 < $s1, caso contrário, $t0 = 0
+	beqz $t0, sair # Se $t0 for zero, ou seja, alcançar o número 10, vá para o rótulo sair
+	addi $s0, $s0, 1 # Incrementando o "i"
+	j while
+sair:
+	la $a0, msg
+	li $v0, 4
+	syscall # Avisando que saímos do laço.
+	li $v0, 10
+	syscall # Termina o programa

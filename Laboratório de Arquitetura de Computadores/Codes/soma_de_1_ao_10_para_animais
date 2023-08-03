@@ -1,0 +1,28 @@
+#                                                                                *** NÃO PRECISA DE VETOR SEU ANIMAL ***
+
+.data 
+
+result: .word 0
+
+.text
+.globl main
+
+main:
+	li $t0, 0 # Inicializa o incrementador como zero (Tipo o soma = 0 em C)
+	li $t1, 1 # Indica que o contador se inicializa com o número 1
+	li $t2, 10 # Indica que o limite do contador ser de 10, ou seja, deu 10, irá parar
+	
+	loop:
+		add $t0, $t0,  $t1 # Adiciona o valor do contador ao incrementador ( $t0 = $t0 + $t1 ) SOMA DE REGISTRADORES SEU ANIMAL!
+		addi $t0, $t0, 1    #  ESSE DE FATO É O INCREMENTADOR ( $t0 = $t0 + 1) POIS ADDI SOMA UM REGISTRADOR A UM NÚMERO, SEU ANIMAL
+		ble $t1, $t2, loop # VERIFICA SE O CONTADOR E MENOR OU IGUAL AO LIMITE SUPERIOR, NESSE CASO ESTIPULAMOS COMO 10 (BRANCH IF LESS OR EQUAL)
+		sw $t0 , result # ARMAZENA O RESULTADO NA VARIÁVEL JA DECLARADA, NO CASO O result
+		
+		#IMPRIME O RESULTADO:
+		li $v0, 1
+		lw $a0, result
+		syscall
+		
+		#INDICA AO AO PROGRAMA PARA PARAR
+		li $v0, 10 # CÓDIFO DE SERVIÇO QUE INDICA PARADA = 10
+		syscall		

@@ -1,0 +1,12 @@
+data
+vetor: .word 5, 7, 9, 3, 1 # Declarando um vetor com 5 elementos e inicializando seus valores
+.text
+.globl main
+main:
+la $t0, vetor # Carregando o endereço base do vetor em $t0
+lw $t1, 0($t0) # Carregando o valor do primeiro elemento do vetor em t1
+lw $t2, 4($t0) # Carregando o valor do segundo elemento do vetor em t2
+add $t3, $t1, $t2 # Somando o primeiro e o segundo elemento e armazenando em $t3
+sw $t3, 16($t0) # Atualizando a posição 5 do vetor com o valor obtido na soma
+li $v0, 10 # Código de saída do programa
+syscall # Terminando o programa

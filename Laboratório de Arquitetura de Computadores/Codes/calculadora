@@ -1,0 +1,389 @@
+.data
+
+operations: .asciiz "\nEscolha qual operação aritimética deseja: A - Adição, S - Subtração, M - Multiplicação, D - Divisão, P - Potenciação"
+pick: .asciiz "\nDigite sua opção:"
+msgInvalido: .asciiz "\nOpção inválida. Por favor insira uma opção válida"
+zeronao: .asciiz "\nNão é possível realizar divisão por zero! Insira os números novamente"
+num1: .asciiz "\nDigite o primeiro número:"
+num2: .asciiz "\nDigite o segundo número:"
+base: .asciiz "\nDigite a base da potência:"
+expoente: .asciiz "\nDigite o expoente:"
+result: .asciiz "\nResultado: "
+pressione: .asciiz "\nDigite a letra Q, ou apenas aperte enter, para sair ou a letra C para voltar ao menu:"
+obg: .asciiz "\nObrigado por usar a melhor calculadora que existe! Até a proxima!"
+
+.text
+.globl main
+
+main:
+
+	while:
+
+# ///// IMPRIME AS OPÇÕES DE ESCOLHA \\\\\
+la $a0, operations
+li $v0, 4
+syscall 
+	
+	while1:
+# ///// PEDE AO USUÁRIO QUE INSIRA A OPÇÃO ESCOLHIDA PARA DEPOIS SER ARMAZENADA \\\\\
+
+# // IMPRIME A STRING \\
+la $a0, pick
+li $v0, 4
+syscall
+
+# //  PROMPT \\
+li $v0, 12
+syscall
+
+# // ARMAZENA \\\\\
+move $t0, $v0
+
+
+# ///// VERIFICA CADA OPÇÃO \\\\\  
+beq $t0, 'A', adicao
+beq $t0, 'S', subtracao
+beq $t0, 'M', multiplicacao
+beq $t0, 'D', divisao
+beq $t0, 'P', potenciacao
+
+
+   
+# ///// VOLTA O PROGRAMA SE A OPÇÃO É INVÁLIDA \\\\\
+invalido:
+    la $a0, msgInvalido
+    li $v0, 4
+    syscall
+    j while1
+
+# ///// ADICIONANDO AS OPERAÇÕES ARITIMÉTICAS A CADA OPÇÃO \\\\\
+
+adicao:
+
+# ///// LÓGICA DA SOMA \\\\\
+
+
+    # /// PEDE OS NÚMEROS AO USUÁRIO \\\
+    
+    # // IMPRIME A STRING PEDINDO O PRIMEIRO NÚMERO \\
+    la, $a0, num1
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\\\\
+    move $t1, $v0
+    
+    
+    # // IMPRIME A STRING PEDINDO SEGUNDO NÚMERO \\
+    la, $a0, num2
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT 
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\\\\
+    move $t2, $v0
+
+    # /// FAZ A SOMA \\\
+    add $t3, $t1, $t2
+
+    # /// IMPRIME O RESULTADO \\\
+    la $a0, result
+    li $v0, 4
+    syscall
+
+    move $a0, $t3
+    li $v0, 1
+    syscall
+    
+    # /// PEDE AO USUÁRIO QUE INFORME SE QUER SAIR OU SE QUER CONTINUAR \\\
+    la $a0, pressione
+    li $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 12
+    syscall
+    
+    # ///// ARMAZENA \\\\\
+    move $t7, $v0
+    
+    # ///// VERIFICA SE QUER SAIR OU CONTINUAR \\\\\
+    beq $t7, 'Q', exit
+    beq $t7, 'C', while
+
+
+subtracao:
+
+# ///// LÓGICA DA SUBTRAÇÃO \\\\\
+
+    # // IMPRIME A STRING PEDINDO O PRIMEIRO NÚMERO \\
+    la, $a0, num1
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\\\\
+    move $t1, $v0
+    
+    
+    # // IMPRIME A STRING PEDINDO SEGUNDO NÚMERO \\
+    la, $a0, num2
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT 
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\
+    move $t2, $v0
+
+    # /// FAZ A SUBTRAÇÃO \\\
+    sub $t3, $t1, $t2
+
+    # /// IMPRIME O RESULTADO \\\
+    la $a0, result
+    li $v0, 4
+    syscall
+
+    move $a0, $t3
+    li $v0, 1
+    syscall
+
+    # /// PEDE AO USUÁRIO QUE INFORME SE QUER SAIR OU SE QUER CONTINUAR \\\
+    la $a0, pressione
+    li $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 12
+    syscall
+    
+    # // ARMAZENA \\
+    move $t7, $v0
+    
+    # ///// VERIFICA SE QUER SAIR OU CONTINUAR \\\\\
+    beq $t7, 'Q', exit
+    beq $t7, 'C', while
+    
+multiplicacao:
+
+# ///// LÓGICA DA MULTIPLICAÇÃO \\\\\
+
+    # // IMPRIME A STRING PEDINDO O PRIMEIRO NÚMERO \\
+    la, $a0, num1
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\\\\
+    move $t1, $v0
+    
+    
+    # // IMPRIME A STRING PEDINDO SEGUNDO NÚMERO \\
+    la, $a0, num2
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT 
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\
+    move $t2, $v0
+
+    # /// FAZ A MULTIPLICAÇÃO \\\
+    mult $t1, $t2
+    mflo $t3
+
+    # /// IMPRIME O RESULTADO \\\
+    la $a0, result
+    li $v0, 4
+    syscall
+
+    move $a0, $t3
+    li $v0, 1
+    syscall
+
+    # /// PEDE AO USUÁRIO QUE INFORME SE QUER SAIR OU SE QUER CONTINUAR \\\
+    la $a0, pressione
+    li $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 12
+    syscall
+    
+    # // ARMAZENA \\
+    move $t7, $v0
+    
+    # ///// VERIFICA SE QUER SAIR OU CONTINUAR \\\\\
+    beq $t7, 'Q', exit
+    beq $t7, 'C', while
+
+divisao:
+	logica:
+
+# ///// LÓGICA DA DIVISÃO \\\\\
+
+   # // IMPRIME A STRING PEDINDO O PRIMEIRO NÚMERO \\
+    la, $a0, num1
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\
+    move $t1, $v0
+    
+    # /// VERIFICA SE ESTÁ TENTANDO FAZER DIVISÃO POR ZERO \\\
+    beqz $t1, divporzero
+    
+    # // IMPRIME A STRING PEDINDO SEGUNDO NÚMERO \\
+    la, $a0, num2
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT 
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\
+    move $t2, $v0
+
+    # /// VERIFICA SE ESTÁ TENTANDO FAZER DIVISÃO POR ZERO \\\
+    beqz $t2, divporzero
+
+    # /// FAZ A DIVISÃO \\\
+    div $t1, $t2
+    mflo $t3
+
+    # /// IMPRIME O RESULTADO \\\
+    la $a0, result
+    li $v0, 4
+    syscall
+
+    move $a0, $t3
+    li $v0, 1
+    syscall
+
+    # /// PEDE AO USUÁRIO QUE INFORME SE QUER SAIR OU SE QUER CONTINUAR \\\
+    la $a0, pressione
+    li $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 12
+    syscall
+    
+    # // ARMAZENA \\
+    move $t7, $v0
+    
+    # ///// VERIFICA SE QUER SAIR OU CONTINUAR \\\\\
+    beq $t7, 'Q', exit
+    beq $t7, 'C', while
+
+divporzero:
+
+    # /// IMPRIME A MENSAGEM DA DIVISÃO POR ZERO \\\
+    la $a0, zeronao
+    li $v0, 4
+    syscall
+    j logica
+
+potenciacao:
+
+# ///// LÓGICA DA POTENCIAÇÃO \\\\\
+
+    # // IMPRIME A STRING PEDINDO A BASE DA POTÊNCIA \\
+    la, $a0, base
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\\\\
+    move $t1, $v0
+    
+    
+    # // IMPRIME A STRING PEDINDO O EXPOENTE \\
+    la, $a0, expoente
+    li, $v0, 4
+    syscall
+    
+    # // PROMPT 
+    li $v0, 5
+    syscall
+    
+    # // ARMAZENA \\
+    move $t2, $v0
+
+    # /// INICIANDO O RESULTADO COM O VALOR 1 \\\
+    li $t3, 1
+
+    # /// FAZ A POTENCIAÇÃO \\
+    loop:
+    	
+  	   # // SAI DA POTENCIACÃO UMA VEZ QUE QUALQUER NÚMERO ELEVADO A 0 É IGUAL A 1 \\
+        beqz $t2, saiDaPotenciacao
+        
+        mult $t3, $t1
+        mflo $t3
+        addi $t2, $t2, -1
+        j loop
+
+
+# /// SAI DO LOOP DA POTENCIAÇÃO \\
+saiDaPotenciacao:
+    
+    # /// IMPRIME O RESULTADO \\\
+    la $a0, result
+    li $v0, 4
+    syscall
+
+    move $a0, $t3
+    li $v0, 1
+    syscall
+    
+    # /// PEDE AO USUÁRIO QUE INFORME SE QUER SAIR OU SE QUER CONTINUAR \\\
+    la $a0, pressione
+    li $v0, 4
+    syscall
+    
+    # // PROMPT \\
+    li $v0, 12
+    syscall
+    
+    # // ARMAZENA \\
+    move $t7, $v0
+    
+    # ///// VERIFICA SE QUER SAIR OU CONTINUAR \\\\\
+    beq $t7, 'Q', exit
+    beq $t7, 'C', while
+ 
+exit:
+
+    # ///// ENCERRA \\\\\
+    la, $a0, obg
+    li, $v0, 4
+    syscall
+    
+    li $v0, 10
+    syscall

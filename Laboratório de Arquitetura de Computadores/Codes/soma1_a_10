@@ -1,0 +1,25 @@
+    .data
+result: .word 0     # Variável para armazenar o resultado da soma
+
+    .text
+    .globl main
+
+main:
+    li $t0, 1        # Inicializa o contador com 1
+    li $t1, 10       # Define o limite superior como 10
+    li $t2, 0        # Inicializa o acumulador com 0
+
+loop:
+    add $t2, $t2, $t0  # Adiciona o valor do contador ao acumulador
+    addi $t0, $t0, 1   # Incrementa o contador em 1
+    ble $t0, $t1, loop # Verifica se o contador é menor ou igual ao limite superior
+    sw $t2, result     # Armazena o resultado na variável "result"
+
+    # Imprimir o resultado
+    li $v0, 1
+    lw $a0, result
+    syscall
+
+    # Encerrar o programa
+    li $v0, 10
+    syscall
