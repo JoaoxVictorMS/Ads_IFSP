@@ -1,0 +1,8 @@
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\bin\Debug\Aula17_primeiroProjeto.exe.config
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\bin\Debug\Aula17_primeiroProjeto.exe
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\bin\Debug\Aula17_primeiroProjeto.pdb
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\obj\Debug\Aula17_primeiroProjeto.csproj.AssemblyReference.cache
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\obj\Debug\Aula17_primeiroProjeto.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\obj\Debug\Aula17_primeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\obj\Debug\Aula17_primeiroProjeto.exe
+C:\Users\al3021599\source\repos\Aula17_primeiroProjeto\Aula17_primeiroProjeto\obj\Debug\Aula17_primeiroProjeto.pdb

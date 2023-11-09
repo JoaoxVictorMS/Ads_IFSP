@@ -1,0 +1,8 @@
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\bin\Debug\Aula18_conversão.exe.config
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\bin\Debug\Aula18_conversão.exe
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\bin\Debug\Aula18_conversão.pdb
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\obj\Debug\Aula18_conversão.csproj.AssemblyReference.cache
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\obj\Debug\Aula18_conversão.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\obj\Debug\Aula18_conversão.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\obj\Debug\Aula18_conversão.exe
+C:\Users\al3021599\source\repos\Aula18_conversão\Aula18_conversão\obj\Debug\Aula18_conversão.pdb
