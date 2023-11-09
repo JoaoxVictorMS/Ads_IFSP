@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1695233386 source:c:\workspace\college\linguagens de programação\code\projeto_revisao\projeto_revisao\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<locale.h>
+
