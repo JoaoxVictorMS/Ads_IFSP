@@ -1,0 +1,7 @@
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_POO\Exec1_POO\bin\Debug\Exec1_POO.exe.config
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_POO\Exec1_POO\bin\Debug\Exec1_POO.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_POO\Exec1_POO\bin\Debug\Exec1_POO.pdb
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_POO\Exec1_POO\obj\Debug\Exec1_POO.csproj.AssemblyReference.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_POO\Exec1_POO\obj\Debug\Exec1_POO.csproj.CoreCompileInputs.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_POO\Exec1_POO\obj\Debug\Exec1_POO.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_POO\Exec1_POO\obj\Debug\Exec1_POO.pdb

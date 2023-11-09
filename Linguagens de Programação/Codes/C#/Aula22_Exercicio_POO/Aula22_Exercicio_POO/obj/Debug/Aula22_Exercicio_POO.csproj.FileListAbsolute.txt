@@ -1,0 +1,12 @@
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\bin\Debug\Aula22_Exercicio_POO.exe.config
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\bin\Debug\Aula22_Exercicio_POO.exe
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\bin\Debug\Aula22_Exercicio_POO.pdb
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.csproj.AssemblyReference.cache
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.exe
+C:\Users\al3021599\Downloads\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.pdb
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Aula22_Exercicio_POO\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.csproj.AssemblyReference.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Aula22_Exercicio_POO\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.csproj.CoreCompileInputs.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Aula22_Exercicio_POO\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Aula22_Exercicio_POO\Aula22_Exercicio_POO\obj\Debug\Aula22_Exercicio_POO.pdb

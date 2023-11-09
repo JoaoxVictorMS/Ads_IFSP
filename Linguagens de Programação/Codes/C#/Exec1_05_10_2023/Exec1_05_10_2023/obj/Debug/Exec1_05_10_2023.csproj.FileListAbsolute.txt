@@ -1,0 +1,7 @@
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_05_10_2023\Exec1_05_10_2023\bin\Debug\Exec1_05_10_2023.exe.config
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_05_10_2023\Exec1_05_10_2023\bin\Debug\Exec1_05_10_2023.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_05_10_2023\Exec1_05_10_2023\bin\Debug\Exec1_05_10_2023.pdb
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_05_10_2023\Exec1_05_10_2023\obj\Debug\Exec1_05_10_2023.csproj.AssemblyReference.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_05_10_2023\Exec1_05_10_2023\obj\Debug\Exec1_05_10_2023.csproj.CoreCompileInputs.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_05_10_2023\Exec1_05_10_2023\obj\Debug\Exec1_05_10_2023.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_05_10_2023\Exec1_05_10_2023\obj\Debug\Exec1_05_10_2023.pdb

@@ -1,0 +1,7 @@
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_01_10\Exec1_01_10\bin\Debug\Exec1_01_10.exe.config
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_01_10\Exec1_01_10\bin\Debug\Exec1_01_10.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_01_10\Exec1_01_10\bin\Debug\Exec1_01_10.pdb
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_01_10\Exec1_01_10\obj\Debug\Exec1_01_10.csproj.AssemblyReference.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_01_10\Exec1_01_10\obj\Debug\Exec1_01_10.csproj.CoreCompileInputs.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_01_10\Exec1_01_10\obj\Debug\Exec1_01_10.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Exec1_01_10\Exec1_01_10\obj\Debug\Exec1_01_10.pdb
