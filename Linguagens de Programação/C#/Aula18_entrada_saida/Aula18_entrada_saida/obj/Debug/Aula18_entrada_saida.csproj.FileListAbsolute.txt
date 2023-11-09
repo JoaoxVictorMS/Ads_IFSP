@@ -1,8 +1,0 @@
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\bin\Debug\Aula18_entrada_saida.exe.config
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\bin\Debug\Aula18_entrada_saida.exe
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\bin\Debug\Aula18_entrada_saida.pdb
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\obj\Debug\Aula18_entrada_saida.csproj.AssemblyReference.cache
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\obj\Debug\Aula18_entrada_saida.csproj.SuggestedBindingRedirects.cache
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\obj\Debug\Aula18_entrada_saida.csproj.CoreCompileInputs.cache
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\obj\Debug\Aula18_entrada_saida.exe
-C:\Users\al3021599\source\repos\Aula18_entrada_saida\Aula18_entrada_saida\obj\Debug\Aula18_entrada_saida.pdb

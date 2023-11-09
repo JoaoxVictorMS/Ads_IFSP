@@ -1,8 +1,0 @@
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\bin\Debug\Aula19_colecoes.exe.config
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\bin\Debug\Aula19_colecoes.exe
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\bin\Debug\Aula19_colecoes.pdb
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\obj\Debug\Aula19_colecoes.csproj.AssemblyReference.cache
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\obj\Debug\Aula19_colecoes.csproj.SuggestedBindingRedirects.cache
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\obj\Debug\Aula19_colecoes.csproj.CoreCompileInputs.cache
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\obj\Debug\Aula19_colecoes.exe
-C:\Users\al3021599\source\repos\Aula19_colecoes\Aula19_colecoes\obj\Debug\Aula19_colecoes.pdb
