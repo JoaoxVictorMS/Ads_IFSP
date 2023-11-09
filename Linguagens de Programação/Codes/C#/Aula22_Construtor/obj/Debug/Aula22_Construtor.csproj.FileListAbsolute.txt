@@ -1,0 +1,8 @@
+C:\Users\al3021599\Downloads\Aula22_Construtor\bin\Debug\Aula22_Construtor.exe.config
+C:\Users\al3021599\Downloads\Aula22_Construtor\bin\Debug\Aula22_Construtor.exe
+C:\Users\al3021599\Downloads\Aula22_Construtor\bin\Debug\Aula22_Construtor.pdb
+C:\Users\al3021599\Downloads\Aula22_Construtor\obj\Debug\Aula22_Construtor.csproj.AssemblyReference.cache
+C:\Users\al3021599\Downloads\Aula22_Construtor\obj\Debug\Aula22_Construtor.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\Downloads\Aula22_Construtor\obj\Debug\Aula22_Construtor.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\Downloads\Aula22_Construtor\obj\Debug\Aula22_Construtor.exe
+C:\Users\al3021599\Downloads\Aula22_Construtor\obj\Debug\Aula22_Construtor.pdb

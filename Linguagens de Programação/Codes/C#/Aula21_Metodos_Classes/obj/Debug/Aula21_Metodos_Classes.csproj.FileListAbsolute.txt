@@ -1,0 +1,16 @@
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\bin\Debug\Aula21_Metodos_Classes.exe.config
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\bin\Debug\Aula21_Metodos_Classes.exe
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\bin\Debug\Aula21_Metodos_Classes.pdb
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.csproj.AssemblyReference.cache
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.exe
+C:\Users\al3021599\source\repos\POO\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.pdb
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\bin\Debug\Aula21_Metodos_Classes.exe.config
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\bin\Debug\Aula21_Metodos_Classes.exe
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\bin\Debug\Aula21_Metodos_Classes.pdb
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.csproj.AssemblyReference.cache
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.exe
+C:\Users\al3021599\Downloads\Aula21_Metodos_Classes\obj\Debug\Aula21_Metodos_Classes.pdb

@@ -1,0 +1,8 @@
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\bin\Debug\Aula19_conversões_velcidade.exe.config
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\bin\Debug\Aula19_conversões_velcidade.exe
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\bin\Debug\Aula19_conversões_velcidade.pdb
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\obj\Debug\Aula19_conversões_velcidade.csproj.AssemblyReference.cache
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\obj\Debug\Aula19_conversões_velcidade.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\obj\Debug\Aula19_conversões_velcidade.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\obj\Debug\Aula19_conversões_velcidade.exe
+C:\Users\al3021599\source\repos\Aula19_conversões_velcidade\Aula19_conversões_velcidade\obj\Debug\Aula19_conversões_velcidade.pdb

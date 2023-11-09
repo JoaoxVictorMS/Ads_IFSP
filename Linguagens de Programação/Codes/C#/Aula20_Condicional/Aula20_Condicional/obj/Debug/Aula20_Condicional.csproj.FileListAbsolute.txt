@@ -1,0 +1,8 @@
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\bin\Debug\Aula20_Condicional.exe.config
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\bin\Debug\Aula20_Condicional.exe
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\bin\Debug\Aula20_Condicional.pdb
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\obj\Debug\Aula20_Condicional.csproj.AssemblyReference.cache
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\obj\Debug\Aula20_Condicional.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\obj\Debug\Aula20_Condicional.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\obj\Debug\Aula20_Condicional.exe
+C:\Users\al3021599\source\repos\Aula20_Condicional\Aula20_Condicional\obj\Debug\Aula20_Condicional.pdb

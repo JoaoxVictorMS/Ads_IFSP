@@ -1,0 +1,8 @@
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\bin\Debug\Aula21_Classes_e_objetos.exe.config
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\bin\Debug\Aula21_Classes_e_objetos.exe
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\bin\Debug\Aula21_Classes_e_objetos.pdb
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\obj\Debug\Aula21_Classes_e_objetos.csproj.AssemblyReference.cache
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\obj\Debug\Aula21_Classes_e_objetos.csproj.SuggestedBindingRedirects.cache
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\obj\Debug\Aula21_Classes_e_objetos.csproj.CoreCompileInputs.cache
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\obj\Debug\Aula21_Classes_e_objetos.exe
+C:\Users\al3021599\source\repos\POO\Aula21_Classes_e_objetos\obj\Debug\Aula21_Classes_e_objetos.pdb
