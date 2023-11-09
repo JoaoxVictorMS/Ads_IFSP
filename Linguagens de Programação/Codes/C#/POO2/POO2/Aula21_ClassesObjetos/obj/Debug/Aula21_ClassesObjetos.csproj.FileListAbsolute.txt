@@ -1,0 +1,7 @@
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula21_ClassesObjetos\bin\Debug\Aula21_ClassesObjetos.exe.config
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula21_ClassesObjetos\bin\Debug\Aula21_ClassesObjetos.exe
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula21_ClassesObjetos\bin\Debug\Aula21_ClassesObjetos.pdb
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula21_ClassesObjetos\obj\Debug\Aula21_ClassesObjetos.csproj.AssemblyReference.cache
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula21_ClassesObjetos\obj\Debug\Aula21_ClassesObjetos.csproj.CoreCompileInputs.cache
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula21_ClassesObjetos\obj\Debug\Aula21_ClassesObjetos.exe
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula21_ClassesObjetos\obj\Debug\Aula21_ClassesObjetos.pdb

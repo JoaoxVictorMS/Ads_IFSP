@@ -1,0 +1,7 @@
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula22_Construtor\bin\Debug\Aula22_Construtor.exe.config
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula22_Construtor\bin\Debug\Aula22_Construtor.exe
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula22_Construtor\bin\Debug\Aula22_Construtor.pdb
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula22_Construtor\obj\Debug\Aula22_Construtor.csproj.AssemblyReference.cache
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula22_Construtor\obj\Debug\Aula22_Construtor.csproj.CoreCompileInputs.cache
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula22_Construtor\obj\Debug\Aula22_Construtor.exe
+C:\Users\jhona\source\repos\CTDLIPA\POO2\Aula22_Construtor\obj\Debug\Aula22_Construtor.pdb
