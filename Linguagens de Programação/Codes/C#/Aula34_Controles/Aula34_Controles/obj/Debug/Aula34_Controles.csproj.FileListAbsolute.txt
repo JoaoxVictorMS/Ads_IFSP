@@ -1,0 +1,15 @@
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\bin\Debug\Aula34_Controles.exe.config
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\bin\Debug\Aula34_Controles.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\bin\Debug\Aula34_Controles.pdb
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.csproj.AssemblyReference.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.Form1.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.Form2.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.Properties.Resources.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.csproj.GenerateResource.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.csproj.CoreCompileInputs.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.pdb
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.Form3.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.Form4.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.Form5.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula34_Controles\Aula34_Controles\obj\Debug\Aula34_Controles.Form6.resources
