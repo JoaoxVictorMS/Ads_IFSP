@@ -1,0 +1,11 @@
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\bin\Debug\Aula30_Forms2.exe.config
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\bin\Debug\Aula30_Forms2.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\bin\Debug\Aula30_Forms2.pdb
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.csproj.AssemblyReference.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.Form1.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.Properties.Resources.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.SegundoForm.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.csproj.GenerateResource.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.csproj.CoreCompileInputs.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula30_Forms2\Aula30_Forms2\obj\Debug\Aula30_Forms2.pdb
