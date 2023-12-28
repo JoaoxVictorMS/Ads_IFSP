@@ -1,0 +1,10 @@
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\bin\Debug\Aula25_Cadastro2.exe.config
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\bin\Debug\Aula25_Cadastro2.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\bin\Debug\Aula25_Cadastro2.pdb
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\obj\Debug\Aula25_Cadastro2.csproj.AssemblyReference.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\obj\Debug\Aula25_Cadastro2.Form1.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\obj\Debug\Aula25_Cadastro2.Properties.Resources.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\obj\Debug\Aula25_Cadastro2.csproj.GenerateResource.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\obj\Debug\Aula25_Cadastro2.csproj.CoreCompileInputs.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\obj\Debug\Aula25_Cadastro2.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula25_Cadastro2\Aula25_Cadastro2\obj\Debug\Aula25_Cadastro2.pdb
