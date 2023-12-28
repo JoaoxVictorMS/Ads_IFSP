@@ -1,0 +1,8 @@
+Projeto Base
+
+- DLL MySqlData já importada nas referências
+- Conexão com a base testada logo no formulário de login
+- Sugestão sobre como recuperar usuários do banco para validar o login,
+
+* Use este, o projeto sobre banco de dados feito em sala e o projeto ImportarChaveEstrangeira para realizar o projeto.
+Fique a vontade para personalizá-lo e modificar, deletar e incluir novas classes.

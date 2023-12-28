@@ -1,0 +1,36 @@
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\OficinaIF.exe.config
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\OficinaIF.exe
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\OficinaIF.pdb
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\MySql.Data.dll
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\System.Memory.dll
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\System.Buffers.dll
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\bin\Debug\MySql.Data.xml
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.AssemblyReference.cache
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.Form1.resources
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.Properties.Resources.resources
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.GenerateResource.cache
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.CoreCompileInputs.cache
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.CopyComplete
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.exe
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.pdb
+C:\Users\jhona\source\repos\CTDLIPA\OficinaIF\OficinaIF\obj\Debug\OficinaIF.FormLogin.resources
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\OficinaIF.exe.config
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\OficinaIF.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\OficinaIF.pdb
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\System.Memory.dll
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\System.Numerics.Vectors.dll
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\System.Buffers.dll
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\bin\Debug\MySql.Data.xml
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.AssemblyReference.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.BoasVindas.resources
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.Form1.resources
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.FormLogin.resources
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.Properties.Resources.resources
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.GenerateResource.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.CoreCompileInputs.cache
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.csproj.CopyComplete
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.exe
+C:\Workspace\College\Linguagens de Programação\Code\C#\source-20230930T131717Z-001\source\repos\Projeto Base\OficinaIF\OficinaIF\obj\Debug\OficinaIF.pdb
