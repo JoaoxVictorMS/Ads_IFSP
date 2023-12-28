@@ -1,0 +1,11 @@
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\bin\Debug\Aula28_ReposicaoLogin.exe.config
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\bin\Debug\Aula28_ReposicaoLogin.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\bin\Debug\Aula28_ReposicaoLogin.pdb
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.csproj.AssemblyReference.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.Form1.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.Properties.Resources.resources
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.csproj.GenerateResource.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.csproj.CoreCompileInputs.cache
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.exe
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.pdb
+C:\Users\jhona\source\repos\CTDLIPA\Aula28_ReposicaoLogin\Aula28_ReposicaoLogin\obj\Debug\Aula28_ReposicaoLogin.FormLogin.resources
