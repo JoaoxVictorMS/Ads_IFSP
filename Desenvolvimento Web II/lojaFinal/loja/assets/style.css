@@ -1,0 +1,88 @@
+:root{
+	--cor-preta: #464646;
+}
+*{
+	margin: 0;
+	padding: 0;
+	color: var(--cor-preta);
+}
+header{
+	background-color: #c3c3c3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+header img{
+	width: 100%;
+	max-width: 300px;
+}
+
+body{
+	background-color: #f4f4f4;
+}
+.box-produtos{
+	display: flex;
+	align-items: center;
+	justify-content: initial;
+	flex-wrap: wrap;
+}
+.box-produtos .produto{
+	float: left;
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+	box-shadow: 6px 10px 5px 2px rgba(0,0,0,0.1);
+	border-radius: 15px;
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.box-produtos .produto .abrir{
+	text-decoration: none;
+}
+.box-produtos .produto .nome{
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.box-produtos .produto a{
+	width: 100%;
+	margin-top: 10px;
+}
+/****************************/
+#cadastro .nome{
+	font-size: 34px;
+	font-weight: bold;
+}
+#cadastro .codigo{
+	font-size: 21px;
+	color: gray;
+}
+#cadastro .valor{
+	font-size: 72px;
+	font-weight: bold;
+	color: red;
+}
+/*formatando estrelas*/
+#cadastro .stars{
+	display: flex;
+	justify-content: initial;
+	align-items: center;
+}
+#cadastro .stars .star{
+	margin-right: 5px;
+}
+#cadastro .stars img{
+	width: 100%;
+	max-width: 35px;
+}
+
+/***********************/
+
+footer{
+	margin-top: 30px;
+	background-color: #c4c4c4;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
