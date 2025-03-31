@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!--
+  
+    <php
+    echo $_POST ['nome_competo']<br/>;
+    echo $_POST ['linguagens']<br/>;
+
+    if(inset: ($_POST['carro'])){
+      echo 'Carro<br/>'
+    }
+
+    if(inset: ($_POST['moto'])){
+      echo 'Moto<br/>'
+    }
+
+    if(inset: ($_POST['bike'])){
+      echo 'Bike<br/>'
+    }
+  
+  ?>
+  
+  -->
+
+  
+  <form method="post" action="processa.php" autocomplete="off"> <!-- Método GET leva dados através da URL, INCLUSIVE SUA SENHA -->
+    
+    <label for="nome_completo">Nome completo</label>
+    <input type="text" id="nome_completo" name="nome_completo" placeholder="Digite seu nome"> 
+
+    <br></br>
+
+    <input type="radio" id="html" name="linguages" value="HTML" checked/>
+    <label for="html">HTML</label>
+
+    <input type="radio" id="css" name="linguages" value="CSS" />
+    <label for="css">CSS</label>
+
+    <input type="radio" id="javascript" name="linguages" value="JavaScript" />
+    <label for="javascrip">JavaScript</label>
+
+    <br></br>
+
+    <input type="checkbox" id="carro" name="meio_de_transporte" value="Carro" checked/>
+    <label for="Carro">Possui Carro</label>
+
+    <input type="checkbox" id="moto" name="meio_de_transporte" value="Moto"/>
+    <label for="Moto">Possui Moto</label>
+
+    <input type="checkbox" id="bike" name="meio_de_transporte" value="Bike" />
+    <label for="Bike">Possui Bike</label>
+
+    <br></br>
+
+    <label for="marcas2">Escolha uma marca</label>
+    <select id="marcas2" name="marcas2">
+
+      <option value="volvo">Volvo</option>
+      <option value="jaguar">Jaguar</option>
+      <option value="ar">Alfa Romeo</option>
+      <option value="am">Aston Martin</option>
+      
+    </select>
+
+    <br></br>
+
+    <textarea name="mensagens" id="mensagem" rows="6" cols="75" minlength="0" maxlength="20" required></textarea>
+
+    <br></br>
+
+    <button onclick="alert('Olá');">Clique Aqui</button>
+
+    <br></br>
+
+    <input type="password"
+
+    <br></br>
+
+    <input type="reset" value="Clique para resetar">
+
+    <br></br>
+
+    <input type="color" value="cor">
+
+    <br></br>
+
+    <input type="date" min="2024-01-01" max="2024-12-31">
+
+    <br></br>
+
+    <input type="datetime-local">
+
+    <br></br>
+
+    <input type="email" />
+
+    <br></br>
+
+    <input type="image" src="https://catanduvaweb.com.br/instituto-federal-abre-inscricoes-para-curso-tecnico-de-fabricacao-mecanica/">
+
+    <br></br>
+
+    <input type="file" />
+
+    <br></br>
+
+    <input type="hidden" value="fe44"  name="escondido" />
+
+    <br></br>
+
+    <input type="month" />
+
+    <br></br>
+
+    <input type="number" min="-10" max="10"/>
+
+    <br></br>
+
+    <input type="range" min="0" max="100"/>
+
+    <br></br>
+
+    <input type="tml" pattern="([0-0](2))"/>
+
+    <br></br>
+
+    <input type="week" />
+    
+    
+    
+    <br/><br></br>
+    <input type="submit" value="Enviar"/>
+    
+
+
+    
+    
+  </form>
+  
+  
+</body>
+
+</html>
